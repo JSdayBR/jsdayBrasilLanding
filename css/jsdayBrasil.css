@@ -120,9 +120,34 @@ a:focus {
 	width: 90%;
 	margin: 0 auto;
 }
+.patrocinadores .content ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+ 
+.patrocinadores .content li {
+	list-style: none;
+}
+.patrocinadores .content img  {
+	
+	width: 100%;
+	max-width: 200px;
+}
+
 #patrocinadores h2 {
 	color:#000;
 }
+
+#patrocinadores h2 small {
+	display: block;
+	font-size: .5em;
+	font-weight: normal;
+	text-transform: none;
+}
+
+
 .sobre img .meta__avatar {
 	margin-bottom: 20px;
 	/*border: 4px solid #fff;*/
