@@ -194,7 +194,7 @@
 }
 
 .meta__date i {margin-right: 4px;}
-.meta__date .jsday-btn {font-size: small;}
+.card__content .jsday-btn {font-size: small;}
 
 @media only screen and (max-width: 980px) {
 	.card {

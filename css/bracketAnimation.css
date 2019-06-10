@@ -48,8 +48,8 @@
   }
   .content__container__list {
 	margin-top: 0;
-	padding-left: 288px;
-	text-align: left;
+	
+	text-align: center;
 	list-style: none;
 	-webkit-animation-name: change;
 	-webkit-animation-duration: 10s;
