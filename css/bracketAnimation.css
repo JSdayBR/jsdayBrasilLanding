@@ -17,7 +17,7 @@
 	font-weight: 600;
 	overflow: hidden;
 	height: 45px;
-	padding: 0 45px;
+	padding: 0 4px;
   }
   .content__container:before {
 	content: '{';
@@ -193,3 +193,31 @@
 	  stroke-dashoffset: 0;
 	}
   }
+  
+
+
+@media screen and (max-width: 80em) {
+	.big-header .content  {
+		font-size: 38px;
+	}
+}
+@media screen and (max-width: 60em) {
+	.big-header .content  {
+		font-size: 35px;
+	}
+}
+@media screen and (max-width: 50em) {
+	.big-header .content  {
+		font-size: 31px;
+	}
+}
+
+@media screen and (max-width: 40em) {
+	.big-header .content  {
+		font-size: 20px;
+	}
+}
+
+
+
+ 
