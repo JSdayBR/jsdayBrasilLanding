@@ -197,32 +197,49 @@
 
 
 @media screen and (max-width: 80em) {
+	.big-header {
+		min-height: 630px;
+		color: #f7df1e;
+	} 
 	.big-header .content  {
 		font-size: 38px;
-		top: 84%;
+		
 	}
 	.big-header svg.intro {top:280px}
 	
 }
 @media screen and (max-width: 60em) {
+	.big-header {
+		min-height: 530px;
+	} 
 	.big-header .content  {
 		font-size: 35px;
-		top: 75%;
 	}
 	.big-header svg.intro {top:190px}
+
+	.content__container:after, .content__container:before {
+		font-size: 50px;
+	}
 }
 @media screen and (max-width: 50em) {
+	.big-header {
+		min-height: 430px;
+	} 
 	.big-header .content  {
 		font-size: 31px;
-		top: 50%;
 	}
 	.big-header svg.intro {top:150px}
 }
 
 @media screen and (max-width: 40em) {
+	.big-header {
+		min-height: 370px;
+	}
 	.big-header .content  {
 		font-size: 20px;
-		top: 45%;
+	}
+	.content__container:after, .content__container:before {
+		font-size: 34px;
 	}
 
 }
