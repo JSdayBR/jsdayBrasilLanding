@@ -88,6 +88,16 @@ a:focus {
 	max-width: 1800px;
 	position: relative;
 }
+.jsday-brand a {
+	transition: all .4s;
+}
+
+.jsday-brand a:hover {
+	color: #f7df1e
+}
+.jsday-brand a:hover span {
+	color: #fff
+}
 
 .brand-and-menu {
 	display: flex;
