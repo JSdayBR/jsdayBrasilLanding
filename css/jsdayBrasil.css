@@ -166,6 +166,24 @@ a:focus {
 	text-align: center;
 }
 
+.socialmedia {
+	margin-top: 5px;
+    /* justify-items: baseline; */
+    /* align-items: flex-start; */
+    text-align: center;
+    font-size: 4em;
+	list-style: none;
+	
+}
+
+.socialmedia li {
+	display: inline;
+	margin: 1%;
+}
+.contato a {
+	transition: all .4s;
+}
+
 .jsday-btn {
 	color:#000;
 	cursor: pointer;
