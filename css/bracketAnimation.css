@@ -1,6 +1,6 @@
 .big-header .content {
 	position: absolute;
-	top: 680px;
+	top: 95%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 			transform: translate(-50%, -50%);
@@ -199,23 +199,32 @@
 @media screen and (max-width: 80em) {
 	.big-header .content  {
 		font-size: 38px;
+		top: 84%;
 	}
+	.big-header svg.intro {top:280px}
+	
 }
 @media screen and (max-width: 60em) {
 	.big-header .content  {
 		font-size: 35px;
+		top: 75%;
 	}
+	.big-header svg.intro {top:190px}
 }
 @media screen and (max-width: 50em) {
 	.big-header .content  {
 		font-size: 31px;
+		top: 50%;
 	}
+	.big-header svg.intro {top:150px}
 }
 
 @media screen and (max-width: 40em) {
 	.big-header .content  {
 		font-size: 20px;
+		top: 45%;
 	}
+
 }
 
 

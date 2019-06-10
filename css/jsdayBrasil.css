@@ -330,6 +330,9 @@ a:focus {
 	.codrops-header {
 		padding: 3em 10% 4em;
 	}
+
+	
+	.jsday-menu a { margin: 0 .3em;}
 }
 
 @media screen and (max-width: 40em) {
@@ -337,4 +340,9 @@ a:focus {
 		font-size: 2.4em;
 		line-height: 1.2;
 	}
+
+	.jsday-menu a { margin: 0 .2em;}
+	
+	.brand-and-menu {flex-direction: column;}
+	
 }
