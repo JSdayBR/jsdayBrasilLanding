@@ -141,7 +141,7 @@ a:focus {
 	color:#000;
 }
 
-#patrocinadores h2 small {
+#patrocinadores h2 small, .contato h2 small {
 	display: block;
 	font-size: .5em;
 	font-weight: normal;
@@ -159,6 +159,11 @@ a:focus {
 	color:white;
 	width: 90%;
 	margin: 0 auto;
+}
+
+
+.contato .content {
+	text-align: center;
 }
 
 .jsday-btn {
