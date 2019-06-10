@@ -378,3 +378,12 @@ a:focus {
 	.brand-and-menu {flex-direction: column;}
 	
 }
+
+
+.fixed {
+    position:fixed;
+	top: 0px !important;
+	width: 100%;
+	z-index: 2;
+	background-color: rgba(0,0,0,0.4);
+}
