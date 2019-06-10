@@ -88,8 +88,8 @@ a:focus {
 	max-width: 1800px;
 	position: relative;
 }
-.jsday-brand a {
-	transition: all .4s;
+.jsday-brand a, .jsday-brand span {
+	transition: all .8s;
 }
 
 .jsday-brand a:hover {
