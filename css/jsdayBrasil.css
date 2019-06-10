@@ -178,8 +178,7 @@ a:focus {
 
 .socialmedia {
 	margin-top: 5px;
-    /* justify-items: baseline; */
-    /* align-items: flex-start; */
+    padding: 0;
     text-align: center;
     font-size: 4em;
 	list-style: none;
