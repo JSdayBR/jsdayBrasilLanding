@@ -311,9 +311,21 @@ a:focus {
 }
 
 @media screen and (max-width: 50em) {
-	.jsday-menu-wrap {display: block}
+	.jsday-menu-wrap {
+		display: block;
+		position: relative;
+		
+		
+	
+	}
 	.jsday-menu a { margin: 0 .3em;}
 } 
+@media screen and (min-width: 50em) {
+	.jsday-menu-wrap {
+		display: block;
+		position: relative;
+	}
+}
 
 @media screen and (max-width: 40em) {
 	.codrops-header h1 {
@@ -326,13 +338,24 @@ a:focus {
 		font-size: 1.1em;
 	}
 
-	.jsday-menu a.bars:hover .jsday-menu-wrap {
-		display: block;
-	}
-
 	.jsday-menu a { margin: 0 .2em;}
 
-	.jsday-menu-wrap {display: none}
+	.jsday-menu-wrap {
+		display: none;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		top: 65px;
+		background-color: rgba(247,223,30,0.4);
+		
+	}
+
+	.jsday-menu-wrap a {
+		display: block;
+		width: 100%;
+	}
+
+
 	
 }
 

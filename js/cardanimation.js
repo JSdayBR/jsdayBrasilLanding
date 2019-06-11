@@ -49,16 +49,16 @@ var demo = (function(window, undefined) {
     // responsive button
     $(".bars").on('click', function(){
       var isVisible = $(".jsday-menu-wrap").css('display');
-      console.log(isVisible);
+      
 
       if(isVisible === "none"){
         $(".jsday-menu-wrap").css('display', 'block');
       }else{
         $(".jsday-menu-wrap").css('display', 'none');
       }
-      
       // $(this).addClass('selected-menu');
     });
+
   }
   
 
