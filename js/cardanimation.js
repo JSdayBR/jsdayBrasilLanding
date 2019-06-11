@@ -130,7 +130,7 @@ var demo = (function(window, undefined) {
   function _playSequence(isOpenClick, id, e) {
 
     var card = layout[id].card;
-
+  
     // Prevent when card already open and user click on image.
     if (card.isOpen && isOpenClick) return;
 
@@ -144,6 +144,8 @@ var demo = (function(window, undefined) {
 
       sequence.add(tweenOtherCards);
       sequence.add(card.openCard(_onCardMove), 0);
+      // hide menu
+      $('#jsday-menu').css('display', 'none');
 
     } else {
       // Close sequence.
@@ -153,6 +155,8 @@ var demo = (function(window, undefined) {
 
       sequence.add(closeCard);
       sequence.add(tweenOtherCards, position);
+      // show menu
+      $('#jsday-menu').css('display', 'block');
     }
 
     sequence.play();
