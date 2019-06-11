@@ -60,19 +60,6 @@ var demo = (function(window, undefined) {
     // intro();
   };
 
-  function introRemove(){
-    console.log('intro out');
-    $(".intro").removeClass("go");    
-  };
-
-  function introShow (){
-    console.log('Show intro');
-    $(".intro").addClass("go");
-  };
-
-
-  // setInterval(introRemove, 13000);
-  // setInterval(introShow, 13009);
   /**
    * Store path elements, map coordinates and sizes.
    * @param {Element} pattern The SVG Element generated with Trianglify.
