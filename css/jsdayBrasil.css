@@ -215,68 +215,8 @@ a:focus {
 }
 
 
-
-
-
-
-/* Top Navigation Style */
-
-.codrops-links {
-	position: relative;
-	display: inline-block;
-	text-align: center;
-	white-space: nowrap;
-}
-
-.codrops-links::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 50%;
-	width: 2px;
-	height: 100%;
-	margin-left: -1px;
-	background: #ddd;
-	-webkit-transform: rotate3d(0, 0, 1, 22.5deg);
-	transform: rotate3d(0, 0, 1, 22.5deg);
-}
-
-.codrops-icon {
-	display: inline-block;
-	width: 1.5em;
-	margin: .5em;
-	padding: 0em 0;
-	text-decoration: none;
-}
-
-.codrops-icon span {
-	display: none;
-}
-
-.codrops-icon:before {
-	font-family: 'codropsicons';
-	font-weight: normal;
-	font-style: normal;
-	font-variant: normal;
-	line-height: 1;
-	margin: 0 5px;
-	text-transform: none;
-	-webkit-font-smoothing: antialiased;
-
-	speak: none;
-}
-
-.codrops-icon--drop:before {
-	content: '\e001';
-}
-
-.codrops-icon--prev:before {
-	content: '\e004';
-}
-
-
-
 /* Menu JSDay Brasil */
+
 .jsday-menu a{
 	margin: 0 .5em;
 	text-transform: uppercase;
@@ -288,6 +228,17 @@ a:focus {
 	-webkit-transition: border .3s;
 	transition: border .3s;
 }
+
+.jsday-menu .bars {
+	display: none;
+	transition: all .8s;
+
+}
+.jsday-menu .bars:hover {
+	color: #f7df1e;
+	border: none;
+}
+
 
 /* JSDay Brasil sub section menu */
 .jsday-menu-section {
@@ -363,7 +314,6 @@ a:focus {
 		padding: 3em 10% 4em;
 	}
 
-	
 	.jsday-menu a { margin: 0 .3em;}
 } 
 
@@ -372,10 +322,15 @@ a:focus {
 		font-size: 2.4em;
 		line-height: 1.2;
 	}
+	.jsday-menu .bars {
+		display: block;
+		color: #f0f0f0;
+		font-size: 1.1em;
+	}
 
 	.jsday-menu a { margin: 0 .2em;}
-	
-	.brand-and-menu {flex-direction: column;}
+
+	.jsday-menu-wrap {display: none}
 	
 }
 
