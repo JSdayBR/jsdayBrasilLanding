@@ -242,7 +242,7 @@ a:focus {
 
 /* JSDay Brasil sub section menu */
 .jsday-menu-section {
-	margin: 2em 0 0;
+	margin: 3.5em 0 0;
 	text-align: center;
 }
 
@@ -339,7 +339,6 @@ a:focus {
 }
 
 .hashtag-jsday {
-	width: 90%;
 	
 	max-width: 300px;
 }
