@@ -58,9 +58,16 @@ var demo = (function(window, undefined) {
       }
       // $(this).addClass('selected-menu');
     });
-
   }
   
+
+  /*$(window).on('resize', function(){
+    var wSize = $("html").css('width');
+    if(parseInt(wSize) >= 640){
+      $(".jsday-menu-wrap").css('display', 'block');
+    }
+    
+  });*/
 
   /**
    * Initialise demo.

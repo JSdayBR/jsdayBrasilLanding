@@ -314,9 +314,6 @@ a:focus {
 	.jsday-menu-wrap {
 		display: block;
 		position: relative;
-		
-		
-	
 	}
 	.jsday-menu a { margin: 0 .3em;}
 } 
@@ -338,14 +335,23 @@ a:focus {
 		font-size: 1.1em;
 	}
 
-	.jsday-menu a { margin: 0 .2em;}
+	.jsday-menu a { 
+		margin: 0;
+		padding: .4em;
+	}
+	.jsday-menu a:hover, .selected-menu { 
+		border: none;
+		color: #000;
+		background-color: rgba(247,223,30,0.8);
+
+	}
 
 	.jsday-menu-wrap {
 		display: none;
 		position: absolute;
 		left: 0;
 		width: 100%;
-		top: 65px;
+		top: 63px;
 		background-color: rgba(247,223,30,0.4);
 		
 	}
