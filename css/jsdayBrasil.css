@@ -328,12 +328,21 @@ a:focus {
 		font-size: 1.1em;
 	}
 
+	.jsday-menu a.bars:hover .jsday-menu-wrap {
+		display: block;
+	}
+
 	.jsday-menu a { margin: 0 .2em;}
 
 	.jsday-menu-wrap {display: none}
 	
 }
 
+.hashtag-jsday {
+	width: 90%;
+	
+	max-width: 300px;
+}
 
 .fixed {
     position:fixed;
