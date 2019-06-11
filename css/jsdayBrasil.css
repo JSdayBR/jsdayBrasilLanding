@@ -222,7 +222,7 @@ a:focus {
 	text-transform: uppercase;
 	font-size: small;
 }
-.jsday-menu a:hover, .selected-menu {
+.jsday-menu a:hover, .selected-menu, .jsday-menu a:focus {
 	color: #fff;
 	border-bottom: 3px solid #f7df1e;
 	-webkit-transition: border .3s;
@@ -232,6 +232,7 @@ a:focus {
 .jsday-menu .bars {
 	display: none;
 	transition: all .8s;
+	cursor: pointer;
 
 }
 .jsday-menu .bars:hover {
@@ -310,6 +311,7 @@ a:focus {
 }
 
 @media screen and (max-width: 50em) {
+	.jsday-menu-wrap {display: block}
 	.jsday-menu a { margin: 0 .3em;}
 } 
 

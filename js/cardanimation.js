@@ -37,6 +37,31 @@ var demo = (function(window, undefined) {
    */
   var layout = {};
 
+  //
+
+  // menu principal
+  
+  function mainMenu(e){
+    $(".jsday-menu-wrap a").on('click', function(){
+      $(".jsday-menu-wrap a").removeClass('selected-menu');
+      $(this).addClass('selected-menu');
+    });
+    // responsive button
+    $(".bars").on('click', function(){
+      var isVisible = $(".jsday-menu-wrap").css('display');
+      console.log(isVisible);
+
+      if(isVisible === "none"){
+        $(".jsday-menu-wrap").css('display', 'block');
+      }else{
+        $(".jsday-menu-wrap").css('display', 'none');
+      }
+      
+      // $(this).addClass('selected-menu');
+    });
+  }
+  
+
   /**
    * Initialise demo.
    */
@@ -58,6 +83,7 @@ var demo = (function(window, undefined) {
 
     _bindCards();
     // intro();
+    mainMenu();
   };
 
   /**
