@@ -338,6 +338,7 @@ a:focus {
 	.jsday-menu a { 
 		margin: 0;
 		padding: .4em;
+		
 	}
 	.jsday-menu a:hover, .selected-menu { 
 		border: none;
